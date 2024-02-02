@@ -1,43 +1,54 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
-
+  /* Geeft de lettertype over heel de website */
+  font-family: "IBM Plex Sans", sans-serif;
 }
 /* Geeft de style van de nav aan */
 nav {
-  background-color: #e19dfa;
+  background-color: #f5e6e8;
   height: 80px;
-  box-shadow: 0 15px 10px -15px black;
-  z-index: 2;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .winkelkar {
   position: relative;
-  left: 735px;
+  left: 600px;
 }
 #winkelkar {
   width: 35px;
   height: 35px;
 }
-ul{
+ul {
   list-style-type: none;
 }
-.nav-knop{
+.nav-knop {
+  position: relative;
+  left: 10px;
   display: flex;
-  gap: 15px;
-  font-size: 18px;
+  gap: 55px;
+  font-size: 21px;
   font-weight: 600;
+  cursor: pointer;
+  color: #7a82ab;
+}
+.nav-knop li:hover {
+  color: #104f55;
 }
 
 .landingpage {
   height: 100vh;
   z-index: 1;
   position: relative;
+  background-color: #92d1c3;
+  box-shadow: 0 15px 10px -15px black, 0 -15px 10px -15px black;
 }
 
 /* Geeft de style van de footer */
+
+footer {
+  background-color: #f5e6e8;
+  height: 80px;
+}
