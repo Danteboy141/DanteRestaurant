@@ -4,6 +4,13 @@
   /* Geeft de lettertype over heel de website */
   font-family: "IBM Plex Sans", sans-serif;
 }
+h1{
+  font-size: 2vw;
+}
+h3{
+  font-size: 1vw;
+}
+
 /* Geeft de style van de nav aan */
 nav {
   background-color: #f5e6e8;
@@ -44,6 +51,15 @@ ul {
   position: relative;
   background-color: #92d1c3;
   box-shadow: 0 15px 10px -15px black, 0 -15px 10px -15px black;
+}
+
+.welkombericht{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 40px;
 }
 
 /* Geeft de style van de footer */
